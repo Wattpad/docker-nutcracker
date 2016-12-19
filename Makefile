@@ -8,7 +8,7 @@ ifndef TAG
 	TAG := $(NUTCRACKER_VERSION)_$(UBUNTU_VERSION)_$(BUILD_VERSION)
 endif
 
-REPO=wattpad/docker-nutcracker
+REPO=wattpad/nutcracker
 IMAGE=$(REPO):$(TAG)
 
 build:
